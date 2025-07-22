@@ -2,7 +2,7 @@ const express = require('express');
 const router = express.Router();
 const { body, param } = require('express-validator');
 const categoryController = require('../controllers/categoryController');
-const validate = require('../middleware/validate'); // Custom middleware to handle validation errors
+const validate = require('../middlewares/validate'); // Custom middleware to handle validation errors
 
 /**
  * @swagger

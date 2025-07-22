@@ -1,7 +1,7 @@
 // models/Product.js
 const mongoose = require('mongoose');
 const slugify = require('slugify'); 
-const Category = require('../Category'); 
+const Category = require('./Category'); 
 // Define schema for product variants like size and color
 const variantSchema = new mongoose.Schema({
   size: {

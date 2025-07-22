@@ -1,11 +1,11 @@
-const express = require('express');
-// const mongoose = require('mongoose');
-// const dotenv = require('dotenv');
+const express = require ('express');
+const mongoose = require('mongoose');
+const dotenv = require('dotenv');
 const cors = require('cors');
 const swaggerJsDoc = require('swagger-jsdoc');
 const swaggerUi = require('swagger-ui-express');
 const swaggerSPec = require('./swagger');
-const productRoutes = require('../routes/productRoutes');
+const productRoutes = require('./routes/productRoutes');
 const categoryRoutes = require('./routes/categoryRoutes');
 
 dotenv.config();
